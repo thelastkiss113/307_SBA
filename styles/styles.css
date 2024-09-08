@@ -1,0 +1,9 @@
+body {background-color: #080808;}
+
+h1 { color: white;
+font-family: 'Storm Gust', sans-serif;
+font-size: 6rem;
+text-align: center;}
+
+p { color: rgb(146, 146, 146);
+    text-align: left; }
