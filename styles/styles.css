@@ -8,66 +8,125 @@ h1 {
   font-size: 16rem;
   text-align: center;
 }
+h2 {
+    color: white;
+    font-family: "Storm Gust", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+  }
 
-p { 
+  /* Story titles */
+  h3 {text-align: center;
+    font-family: "storm gust", sans-serif;
+    font-size: 5rem;
+color: white;}
+
+
+p {
   color: rgb(146, 146, 146);
-  text-align: center;
   font-family: "preconnect", sans-serif;
   font-size: 1.25rem;
 }
+.container {position: relative;}
 
 #sidebar {
-    height: 100%;
-    width: fit-content;
-    background-color: #343a40; 
-    padding-top: 20px;
-    position: fixed;
-    display: flex;
-    overflow: hidden;
-    font-size: 5rem;
+  height: 100%;
+  width: fit-content;
+  background-color: #343a40;
+  padding-top: 20px;
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  font-size: 5rem;
 }
 #sidebar .nav-link {
-    color: #ffffff; 
+  color: #ffffff;
 }
 #sidebar .nav-link.active {
-    background-color: #3C0606; 
-    color: #ffffff; 
+  background-color: #3c0606;
+  color: #ffffff;
 }
 #sidebar .nav-link:hover {
-    background-color: #495057; 
-    color: #ffffff;
+  background-color: #495057;
+  color: #ffffff;
 }
 
+#banner {
+  display: block;
+  margin: auto;
+}
 
-#banner {display: block;
-    margin: auto;}
-
+/* Card Body dark red */
 .card {
-    background-color: #700404; 
-    color: white; 
+  background-color: #700404;
+  color: white;
 }
 
+
+/* Card Top bright red - covered by img*/
 .card-header {
-    background-color: #8A0303; /* red card */
-    color: white; /* White text color */
+  background-color: #8a0303; 
+  color: white; 
 }
 
+/* Card Bottom  burgundy */
 .card-footer {
-    background-color: #560505; /* dark red footer */
+  background-color: #560505; 
 }
 
+/* Card Img */
 .card-img-top {
-    border-bottom: 1px solid #080808; 
+  border-bottom: 1px solid #080808;
 }
+
+/* Card Title */
+.card-title { text-align: center;}
 
 /* Contact Us */
 
 .contactContainer {
-
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    min-height: 100vh;
+    display:grid;
+    justify-content:center;
+    color: white;
     width: 500px;
-    background-color: #080808;
-    color: white;}
+    font-size: 2rem;
+text-align: left;
+margin-left: 500px;
+
+}
+
+/* Story Content */
+.story {
+padding: 60px; }
+
+.content-wrapper {
+margin-left: 500px;}
+
+#goBack{color: #ffffff;}
+
+
+/* Submission form  */
+.submitForm {
+    display:grid;
+    justify-content:center;
+    color: white;
+    width: 500px;
+    font-size: 2rem;
+text-align: left;
+margin-left: 500px;}
+
+input{width: 500px;
+height: 50px;}
+
+#agree {width: 30px; height: 30px;}
+
+
+/* Submit Button */
+
+.button:hover {
+    transition: 0.5s;
+    transition-duration: 1s;
+    transition-property: width;
+    background-color: #560505;
+}
+
