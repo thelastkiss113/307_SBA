@@ -115,6 +115,8 @@ p {
 
 /* Story Content */
 .story {
+  background-color: #080808;
+  color: white;
   padding: 60px;
 }
 
