@@ -161,6 +161,7 @@ button:hover {
 table,
 th,
 td {
+  font-size: 2rem;
   color: white;
   border: 1px solid;
   margin-left: 500px;
