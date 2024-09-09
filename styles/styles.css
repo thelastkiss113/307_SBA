@@ -1,9 +1,73 @@
-body {background-color: #080808;}
+body {
+  background-color: #080808;
+}
 
-h1 { color: white;
-font-family: 'Storm Gust', sans-serif;
-font-size: 6rem;
-text-align: center;}
+h1 {
+  color: white;
+  font-family: "Storm Gust", sans-serif;
+  font-size: 16rem;
+  text-align: center;
+}
 
-p { color: rgb(146, 146, 146);
-    text-align: left; }
+p { 
+  color: rgb(146, 146, 146);
+  text-align: center;
+  font-family: "preconnect", sans-serif;
+  font-size: 1.25rem;
+}
+
+#sidebar {
+    height: 100%;
+    width: fit-content;
+    background-color: #343a40; 
+    padding-top: 20px;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    font-size: 5rem;
+}
+#sidebar .nav-link {
+    color: #ffffff; 
+}
+#sidebar .nav-link.active {
+    background-color: #3C0606; 
+    color: #ffffff; 
+}
+#sidebar .nav-link:hover {
+    background-color: #495057; 
+    color: #ffffff;
+}
+
+
+#banner {display: block;
+    margin: auto;}
+
+.card {
+    background-color: #700404; 
+    color: white; 
+}
+
+.card-header {
+    background-color: #8A0303; /* red card */
+    color: white; /* White text color */
+}
+
+.card-footer {
+    background-color: #560505; /* dark red footer */
+}
+
+.card-img-top {
+    border-bottom: 1px solid #080808; 
+}
+
+/* Contact Us */
+
+.contactContainer {
+
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    min-height: 100vh;
+    width: 500px;
+    background-color: #080808;
+    color: white;}

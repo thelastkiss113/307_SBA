@@ -3,148 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Nightmare Ink</title>
     <link href="https://fonts.cdnfonts.com/css/storm-gust" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
-
 </head>
 <body>
+<!-- Navbar  -->
+<nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/pages/submit.html">Submit Story</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html">Contact Us</a>
+        </li>
+    </ul>
+</nav>
 
-    <h1>Nightmare Ink</h1>
-    <p> Select Your Story </p>
+    <!-- Website Banner  -->
+    <header class="text-center mb-4">
+        <h1>Nightmare Ink</h1>
+        <img src="/images/banner.png" alt="banner" id="banner">
+    </header>
 
+
+<p>Select Your Story</p>
+
+    <!-- Select Story Cards  -->
     <div class="container">
-        <div class="d-flex flex-wrap justify-content-around">
-            <div class="card m-1" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card m-2" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <a href="/pages/story1.html" target="_blank">
+                    <img class="card-img-top" src="/images/icon_truecrime.png" alt="Card image cap"> </a>
+                    <div class="card-body">
+                        <h5 class="card-title">True Stories</h5>
+                        <p class="card-text">True Crime, personal stories, real-life crime, and high profile cases.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 13 mins ago</small>
+                    </div>
                 </div>
             </div>
-            <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>                
-            </div>
-        </div>
-        <div class="d-flex flex-wrap justify-content-around">
-            <div class="card m-1" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_slasher.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Slasher</h5>
+                        <p class="card-text">Stalkers, masked murderers, final girls, & killing sprees.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 20 mins ago</small>
+                    </div>
                 </div>
             </div>
-            <div class="card m-2" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_ghost.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Paranormal</h5>
+                        <p class="card-text">Ghosts, vampires, witches, demons, faeries...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 2 hours ago</small>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex flex-wrap justify-content-around">
-            <div class="card m-1" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card m-2" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_creature.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Monster</h5>
+                        <p class="card-text">Feature inhuman creatures.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 1 week ago</small>
+                    </div>
                 </div>
             </div>
-            <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>                
-            </div>
-        </div>
-        <div class="d-flex flex-wrap justify-content-around">
-            <div class="card m-1" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_body.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Body</h5>
+                        <p class="card-text">Unnatural body terrors</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 33 mins ago</small>
+                    </div>
                 </div>
             </div>
-            <div class="card m-2" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_folk.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Folk</h5>
+                        <p class="card-text">Folklore, superstition, rituals, nature, villages, sacrifices...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
                 </div>
             </div>
-            <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_house.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Domestic</h5>
+                        <p class="card-text">Psychological horror within the family and/or home.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 weeks ago</small>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_scifi.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sci-Fi</h5>
+                        <p class="card-text">Alien invasions, mad scientists, robots, experiments gone wrong...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
                 </div>
-    </div>
-</div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_historical (2).png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Historical</h5>
+                        <p class="card-text">Setting anchored in history, period pieces, historical figures...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 2 months ago</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_apocalyptic.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Apocalyptic</h5>
+                        <p class="card-text">Nuclear War, zombies, plagues, survival...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 6 weeks ago</small>
+                    </div>
+                </div>
 
-</div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_domestic.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Experimental</h5>
+                        <p class="card-text">Genre mixing, unconventional, surreal, untraditional narrative form...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 5 months ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="/images/icon_occult.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Occult</h5>
+                        <p class="card-text">Possession, paranormal powers, ouija boards, sorcery, witchcraft, dark magic...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 7 hours ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
